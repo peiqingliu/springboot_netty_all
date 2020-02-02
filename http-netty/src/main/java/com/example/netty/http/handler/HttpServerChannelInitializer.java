@@ -22,6 +22,8 @@ public class HttpServerChannelInitializer extends ChannelInitializer<SocketChann
          * HttpResponseEncoder 即把 HttpResponse 或 HttpContent 编码到 ByteBuf。
          *
          * HttpServerCodec 即 HttpRequestDecoder 和 HttpResponseEncoder 的结合。
+         *
+         * 编解码 就是将自然语言 转成计算机能够读懂的二进制语言 如ASCII字符集  编码方式
          */
         cp.addLast(new HttpServerCodec())
         /**
