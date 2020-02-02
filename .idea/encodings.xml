@@ -3,6 +3,8 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/http-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-heartBeat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-heartBeat-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-http" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-http" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-http" charset="UTF-8" />

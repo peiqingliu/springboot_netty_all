@@ -68,6 +68,8 @@
     <modules>
         <module>netty-jpa</module>
         <module>http-netty</module>
+        <module>netty-heartBeat</module>
+        <module>netty-heartBeat-client</module>
     </modules>
 
 
