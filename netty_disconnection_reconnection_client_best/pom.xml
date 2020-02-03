@@ -9,9 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>netty-heartBeat</artifactId>
-
-    <description>心跳检测</description>
+    <artifactId>netty_disconnection_reconnection_client_best</artifactId>
+    <description>断开重连另一种方法</description>
 
 
 </project>

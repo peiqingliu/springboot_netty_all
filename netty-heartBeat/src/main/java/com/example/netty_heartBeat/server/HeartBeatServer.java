@@ -1,6 +1,6 @@
-package com.example.netty_reconnection.server;
+package com.example.netty_heartBeat.server;
 
-import com.example.netty_reconnection.handler.HeartBeatServerHandler;
+import com.example.netty_heartBeat.handler.HeartBeatServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

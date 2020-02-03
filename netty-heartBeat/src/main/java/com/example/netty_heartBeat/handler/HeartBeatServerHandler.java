@@ -1,4 +1,4 @@
-package com.example.netty_reconnection.handler;
+package com.example.netty_heartBeat.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -52,7 +52,7 @@ public class HeartBeatServerHandler extends ChannelInboundHandlerAdapter {
                 //读超时
                 loss_connect_time++;
                 log.info("5秒没有接收到客户端的信息了");
-                if (loss_connect_time > 2){
+                if (loss_connect_time > 12){
                     log.info("超过两次，关闭这个不活跃的连接");
                     ctx.channel().close();
                 }

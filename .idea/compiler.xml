@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="httpnetty" />
+        <module name="netty-heartBeat-client" />
+        <module name="netty_disconnection_reconnection" />
+        <module name="netty_disconnection_reconnection_client" />
+        <module name="netty_disconnection_reconnection_client_best" />
         <module name="nettyjpa" />
         <module name="nettyreconnection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="netty-reconnection" target="1.8" />
       <module name="netty_http" target="1.8" />
       <module name="nettyhttp" target="1.8" />
       <module name="nettyreconnectionclient" target="1.8" />
@@ -20,6 +25,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="httpnetty" options="-parameters" />
+      <module name="netty-heartBeat-client" options="-parameters" />
+      <module name="netty-reconnection" options="-parameters" />
+      <module name="netty_disconnection_reconnection" options="-parameters" />
+      <module name="netty_disconnection_reconnection_client" options="-parameters" />
+      <module name="netty_disconnection_reconnection_client_best" options="-parameters" />
       <module name="nettyhttp" options="-parameters" />
       <module name="nettyjpa" options="-parameters" />
       <module name="nettyreconnection" options="-parameters" />

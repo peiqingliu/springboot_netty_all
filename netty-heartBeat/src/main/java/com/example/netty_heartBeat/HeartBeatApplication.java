@@ -1,4 +1,4 @@
-package com.example.netty_reconnection;
+package com.example.netty_heartBeat;
 
 
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * netty心跳和重新连接
  */
 @SpringBootApplication
-public class ReconnectionApplication {
+public class HeartBeatApplication {
     /**
      * Netty应用心跳和重连的整个过程：
      *
@@ -27,6 +27,6 @@ public class ReconnectionApplication {
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(ReconnectionApplication.class,args);
+        SpringApplication.run(HeartBeatApplication.class,args);
     }
 }
