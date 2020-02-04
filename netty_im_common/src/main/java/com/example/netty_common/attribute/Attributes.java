@@ -11,4 +11,5 @@ import io.netty.util.AttributeKey;
 public interface Attributes {
     //实际上AttributeKey与ChannelOption非常类似，都是根据给定的名称获取一个常量。
     AttributeKey<Session> SESSION = AttributeKey.newInstance("session");
+    AttributeKey<Boolean> LOGIN = AttributeKey.newInstance("login");
 }

@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="httpnetty" />
         <module name="netty-heartBeat-client" />
+        <module name="netty_communication_client" />
+        <module name="netty_communication_server" />
         <module name="netty_disconnection_reconnection" />
         <module name="netty_disconnection_reconnection_client" />
         <module name="netty_disconnection_reconnection_client_best" />
@@ -16,6 +18,8 @@
         <module name="netty_im_common" />
         <module name="netty_iot" />
         <module name="netty_protobuf" />
+        <module name="netty_protocol_client" />
+        <module name="netty_protocol_server" />
         <module name="nettyjpa" />
         <module name="nettyreconnection" />
       </profile>
@@ -32,6 +36,8 @@
       <module name="httpnetty" options="-parameters" />
       <module name="netty-heartBeat-client" options="-parameters" />
       <module name="netty-reconnection" options="-parameters" />
+      <module name="netty_communication_client" options="-parameters" />
+      <module name="netty_communication_server" options="-parameters" />
       <module name="netty_disconnection_reconnection" options="-parameters" />
       <module name="netty_disconnection_reconnection_client" options="-parameters" />
       <module name="netty_disconnection_reconnection_client_best" options="-parameters" />
@@ -40,6 +46,8 @@
       <module name="netty_im_common" options="-parameters" />
       <module name="netty_iot" options="-parameters" />
       <module name="netty_protobuf" options="-parameters" />
+      <module name="netty_protocol_client" options="-parameters" />
+      <module name="netty_protocol_server" options="-parameters" />
       <module name="nettyhttp" options="-parameters" />
       <module name="nettyjpa" options="-parameters" />
       <module name="nettyreconnection" options="-parameters" />

@@ -78,6 +78,10 @@
         <module>netty_im</module>
         <module>netty_im_client</module>
         <module>netty_im_common</module>
+        <module>netty_communication_client</module>
+        <module>netty_communication_server</module>
+        <module>netty_protocol_server</module>
+        <module>netty_protocol_client</module>
     </modules>
 
 

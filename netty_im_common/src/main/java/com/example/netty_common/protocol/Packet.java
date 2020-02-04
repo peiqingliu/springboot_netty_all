@@ -8,6 +8,7 @@ import lombok.Data;
  * @Date 2020/2/3 21:17
  * @Version 1.0
  * 数据包
+ * 定义一下客户端与服务端通信的 Java 对象
  */
 @Data
 public abstract  class Packet {
