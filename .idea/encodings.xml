@@ -14,5 +14,10 @@
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection_client_best" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_im" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_im_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_im_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_iot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_protobuf" charset="UTF-8" />
   </component>
 </project>

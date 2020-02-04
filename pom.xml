@@ -21,7 +21,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <netty-all.version>4.1.36.Final</netty-all.version>
+        <netty-all.version>4.1.42.Final</netty-all.version>
         <commons.codec.version>1.10</commons.codec.version>
         <fastjson.version>1.2.51</fastjson.version>
     </properties>
@@ -73,7 +73,27 @@
         <module>netty_disconnection_reconnection</module>
         <module>netty_disconnection_reconnection_client</module>
         <module>netty_disconnection_reconnection_client_best</module>
+        <module>netty_protobuf</module>
+        <module>netty_iot</module>
+        <module>netty_im</module>
+        <module>netty_im_client</module>
+        <module>netty_im_common</module>
     </modules>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
 
 </project>

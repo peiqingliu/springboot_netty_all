@@ -11,6 +11,11 @@
         <module name="netty_disconnection_reconnection" />
         <module name="netty_disconnection_reconnection_client" />
         <module name="netty_disconnection_reconnection_client_best" />
+        <module name="netty_im" />
+        <module name="netty_im_client" />
+        <module name="netty_im_common" />
+        <module name="netty_iot" />
+        <module name="netty_protobuf" />
         <module name="nettyjpa" />
         <module name="nettyreconnection" />
       </profile>
@@ -30,6 +35,11 @@
       <module name="netty_disconnection_reconnection" options="-parameters" />
       <module name="netty_disconnection_reconnection_client" options="-parameters" />
       <module name="netty_disconnection_reconnection_client_best" options="-parameters" />
+      <module name="netty_im" options="-parameters" />
+      <module name="netty_im_client" options="-parameters" />
+      <module name="netty_im_common" options="-parameters" />
+      <module name="netty_iot" options="-parameters" />
+      <module name="netty_protobuf" options="-parameters" />
       <module name="nettyhttp" options="-parameters" />
       <module name="nettyjpa" options="-parameters" />
       <module name="nettyreconnection" options="-parameters" />
