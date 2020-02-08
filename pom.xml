@@ -82,6 +82,9 @@
         <module>netty_communication_server</module>
         <module>netty_protocol_server</module>
         <module>netty_protocol_client</module>
+        <module>netty_sticky_package_server</module>
+        <module>netty_sticky_package_client</module>
+        <module>netty_decodeAndEncode</module>
     </modules>
 
 

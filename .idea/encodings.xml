@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/netty-reconnection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_communication_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_communication_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_decodeAndEncode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_disconnection_reconnection_client_best" charset="UTF-8" />
@@ -24,5 +25,7 @@
     <file url="file://$PROJECT_DIR$/netty_protobuf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_protocol_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty_protocol_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_sticky_package_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty_sticky_package_server" charset="UTF-8" />
   </component>
 </project>

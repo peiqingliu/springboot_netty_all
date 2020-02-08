@@ -85,10 +85,14 @@ public class PacketCodec {
         // 2.实际编码过程
         log.info("将java对象序列化成二进制包");
         byteBuf.writeInt(MAGIC_NUMBER);
+        //版本号
         byteBuf.writeByte(packet.getVersion());
+        log.info("");
         byteBuf.writeByte(Serializer.DEFAULT.getSerializerAlgorithm());
         byteBuf.writeByte(packet.getCommand());
+
         byteBuf.writeInt(bytes.length);
+
         byteBuf.writeBytes(bytes);
 
     }
